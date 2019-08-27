@@ -58,6 +58,7 @@
 				818228012315B975002BC7BA /* ViewModel */,
 				818228022315B97D002BC7BA /* View */,
 				818228032315B9D6002BC7BA /* Support */,
+				818228042315BACC002BC7BA /* Network */,
 				818227F22315B68A002BC7BA /* Main.storyboard */,
 				818227F52315B68B002BC7BA /* Assets.xcassets */,
 				818227F72315B68B002BC7BA /* LaunchScreen.storyboard */,
@@ -94,6 +95,13 @@
 				818227EE2315B68A002BC7BA /* AppDelegate.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		818228042315BACC002BC7BA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
