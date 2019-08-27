@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		818227EF2315B68A002BC7BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818227EE2315B68A002BC7BA /* AppDelegate.swift */; };
-		818227F12315B68A002BC7BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818227F02315B68A002BC7BA /* ViewController.swift */; };
 		818227F42315B68A002BC7BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818227F22315B68A002BC7BA /* Main.storyboard */; };
 		818227F62315B68B002BC7BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818227F52315B68B002BC7BA /* Assets.xcassets */; };
 		818227F92315B68B002BC7BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818227F72315B68B002BC7BA /* LaunchScreen.storyboard */; };
@@ -20,7 +19,6 @@
 /* Begin PBXFileReference section */
 		818227EB2315B68A002BC7BA /* SpaceX_threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX_threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		818227EE2315B68A002BC7BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		818227F02315B68A002BC7BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		818227F32315B68A002BC7BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		818227F52315B68B002BC7BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		818227F82315B68B002BC7BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 			children = (
 				818228052315BC32002BC7BA /* Storyboards */,
 				8182280A2315C73C002BC7BA /* controller */,
-				818227F02315B68A002BC7BA /* ViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,7 +199,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				818228092315BCE0002BC7BA /* Rocket.swift in Sources */,
-				818227F12315B68A002BC7BA /* ViewController.swift in Sources */,
 				818227EF2315B68A002BC7BA /* AppDelegate.swift in Sources */,
 				8182280C2315C753002BC7BA /* HomeViewController.swift in Sources */,
 			);
