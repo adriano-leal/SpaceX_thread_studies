@@ -12,6 +12,7 @@
 		818227F42315B68A002BC7BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818227F22315B68A002BC7BA /* Main.storyboard */; };
 		818227F62315B68B002BC7BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818227F52315B68B002BC7BA /* Assets.xcassets */; };
 		818227F92315B68B002BC7BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818227F72315B68B002BC7BA /* LaunchScreen.storyboard */; };
+		818228072315BC56002BC7BA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818228062315BC56002BC7BA /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		818227F52315B68B002BC7BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		818227F82315B68B002BC7BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		818227FA2315B68B002BC7BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818228062315BC56002BC7BA /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		818228022315B97D002BC7BA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				818228052315BC32002BC7BA /* Storyboards */,
 				818227F02315B68A002BC7BA /* ViewController.swift */,
 			);
 			path = View;
@@ -102,6 +105,14 @@
 			children = (
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		818228052315BC32002BC7BA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				818228062315BC56002BC7BA /* Home.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 				818227F92315B68B002BC7BA /* LaunchScreen.storyboard in Resources */,
 				818227F62315B68B002BC7BA /* Assets.xcassets in Resources */,
 				818227F42315B68A002BC7BA /* Main.storyboard in Resources */,
+				818228072315BC56002BC7BA /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
