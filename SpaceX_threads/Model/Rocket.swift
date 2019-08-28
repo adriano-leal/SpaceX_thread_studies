@@ -9,7 +9,7 @@
 import Foundation
 
 // MARK: - RocketElement
-struct RocketElement: Codable {
+struct Rocket: Codable {
     let flightNumber: Int
     let missionName: String
     let missionID: [String]
