@@ -15,7 +15,7 @@ class NetworkLayer {
     
     let dispatchGroup = DispatchGroup()
     
-    func fetchData() {        
+    func fetchData(completion: @escaping () -> Void) {
         guard let url = URL(string: apiURL) else { return }
         URLSession.shared.dataTask(with: url) { (data, urlSession, err) in
             if let err = err { print(err) }
@@ -25,12 +25,17 @@ class NetworkLayer {
                 let theRocket = try JSONDecoder().decode(Rocket.self, from: data)
                 self.rocket.append(theRocket)
                 
-                self.dispatchGroup.leave()
+                completion()
+//                self.dispatchGroup.leave()
                 
             } catch let err {
                 print(err)
             }
         }.resume()
-        
     }
+    
+    
+    func getImages(data: Data, completion: @escaping () -> Void) {
+    }
+    
 }
