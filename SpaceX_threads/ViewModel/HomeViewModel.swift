@@ -42,4 +42,8 @@ class HomeViewModel {
     func getLaunchDate(pos: Int) -> String {
         return networkLayer.rocket[pos].launchDateUTC
     }
+    
+    func getImagesLink(pos: Int) -> String {
+        return networkLayer.rocket[pos].links.flickrImages.first ?? " "
+    }
 }

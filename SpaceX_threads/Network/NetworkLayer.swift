@@ -13,7 +13,7 @@ class NetworkLayer {
     let apiURL: String = "https://api.spacexdata.com/v3/launches"
     var rocket:[Rocket] = []
     
-    let dispatchGroup = DispatchGroup()
+//    let dispatchGroup = DispatchGroup()
     
     func fetchData(completion: @escaping () -> Void) {
         guard let url = URL(string: apiURL) else { return }
@@ -35,7 +35,11 @@ class NetworkLayer {
     }
     
     
-    func getImages(data: Data, completion: @escaping () -> Void) {
+    func getImages(link: String, completion: @escaping (Data?) -> Void) {
+        
+        if let urlImages = URL(string: " " ) {
+            
+        }
     }
     
 }
