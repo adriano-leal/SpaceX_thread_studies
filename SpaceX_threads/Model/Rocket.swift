@@ -9,17 +9,18 @@
 import Foundation
 
 // MARK: - RocketElement
-struct RocketElement: Codable {
+struct Rocket: Codable {
     let flightNumber: Int
     let missionName: String
     let missionID: [String]
-    let launchYear: String
+    let launchYear: String 
     let launchDateUTC: String
     let launchDateLocal: Date
     let rocket: RocketClass
     let ships: [String]
     let launchSuccess: Bool?
     let links: Links
+    let details: String?
     
     enum CodingKeys: String, CodingKey {
         case flightNumber = "flight_number"
@@ -31,6 +32,7 @@ struct RocketElement: Codable {
         case rocket, ships
         case launchSuccess = "launch_success"
         case links
+        case details
     }
 }
 
