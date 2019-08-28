@@ -71,7 +71,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image-did-not-load-default" translatesAutoresizingMaskIntoConstraints="NO" id="Dom-Ge-PbM">
-                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="300.00000000000011"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="300"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
