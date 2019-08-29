@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042F02F7231891F900C5D97E /* RocketImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F02F6231891F900C5D97E /* RocketImagesCollectionViewCell.swift */; };
 		04F6804D23171F73007F279F /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6804C23171F73007F279F /* UIButtonExtension.swift */; };
 		04F6804F2317200E007F279F /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6804E2317200E007F279F /* UIViewExtensions.swift */; };
 		818227EF2315B68A002BC7BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818227EE2315B68A002BC7BA /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042F02F6231891F900C5D97E /* RocketImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketImagesCollectionViewCell.swift; sourceTree = "<group>"; };
 		04F6804C23171F73007F279F /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		04F6804E2317200E007F279F /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		818227EB2315B68A002BC7BA /* SpaceX_threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX_threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				8182280B2315C753002BC7BA /* HomeViewController.swift */,
+				042F02F6231891F900C5D97E /* RocketImagesCollectionViewCell.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				04F6804D23171F73007F279F /* UIButtonExtension.swift in Sources */,
 				818227EF2315B68A002BC7BA /* AppDelegate.swift in Sources */,
 				8182280C2315C753002BC7BA /* HomeViewController.swift in Sources */,
+				042F02F7231891F900C5D97E /* RocketImagesCollectionViewCell.swift in Sources */,
 				81C77C622316F9FC00002A2F /* NetworkLayer.swift in Sources */,
 				04F6804F2317200E007F279F /* UIViewExtensions.swift in Sources */,
 				8182280E2315C7E3002BC7BA /* HomeViewModel.swift in Sources */,
