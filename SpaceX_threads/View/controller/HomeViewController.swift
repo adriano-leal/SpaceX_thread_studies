@@ -27,7 +27,4 @@ class HomeViewController: UIViewController {
         self.previousButton.setAppearance()
         self.nextButton.setAppearance()
     }
-    
-    
-    
 }
