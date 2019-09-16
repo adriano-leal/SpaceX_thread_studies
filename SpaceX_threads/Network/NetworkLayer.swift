@@ -35,20 +35,20 @@ class NetworkLayer {
     }
     
     
-    func fetchImage(from urlString: String, completionHandler: @escaping (_ data: Data?) -> ()) {
-        let session = URLSession.shared
-        let url = URL(string: "image_url")
-        
-        let dataTask = session.dataTask(with: url!) { (data, response, error) in
-            if error != nil {
-                print("Error fetching the image! 😢")
-                completionHandler(nil)
-            } else {
-                completionHandler(data)
-            }
-        }
-        
-        dataTask.resume()
-    }
+//    func fetchImage(from urlString: String, completionHandler: @escaping (_ data: Data?) -> ()) {
+//        let session = URLSession.shared
+//        let url = URL(string: "image_url")
+//
+//        let dataTask = session.dataTask(with: url!) { (data, response, error) in
+//            if error != nil {
+//                print("Error fetching the image! 😢")
+//                completionHandler(nil)
+//            } else {
+//                completionHandler(data)
+//            }
+//        }
+//
+//        dataTask.resume()
+//    }
     
 }
