@@ -10,6 +10,8 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
+    var networkLayer: NetworkLayer = NetworkLayer()
+    
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var rocketName: UILabel!
@@ -73,11 +75,19 @@ class HomeViewController: UIViewController {
         }
     }
     
-    func receiveImages (image data: [Data]) {
-        // perform actions
-        print(data)
-    }
     
+    func setImage(from url: String) {
+        guard let imageURL = URL(string: url) else { return }
+
+        DispatchQueue.global().async {
+            guard let imageData = try? Data(contentsOf: imageURL) else { return }
+            
+            let image = UIImage(data: imageData)
+            DispatchQueue.main.async {
+                self.noImageInDBImage.image = image
+            }
+        }
+    }
     
     
 }
